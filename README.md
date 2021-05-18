@@ -1,3 +1,8 @@
+# TODO
+clone and npm install
+simple Todo App with task, date, and status fields
+Redux,react datapicker,hooks is used in App
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
