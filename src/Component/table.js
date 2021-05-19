@@ -34,8 +34,8 @@ function Table({editData}) {
                         return(
                             <tr key={i}>
                             <td>{res.task}</td>
-                            <td>{res.status}</td>
                             <td>{new Date(res.startDate).toISOString().slice(0, 10)}</td>
+                            <td>{res.status}</td>
                             <td className="mainAction"><p className='action' onClick={(e)=>handleDelete(e,i)}>Delete |</p>  <p className='action' onClick={(e)=>handleEdit(e,i)}>| Edit</p></td>
                         </tr>
                         )
